@@ -1,0 +1,58 @@
+@import "variables.scss";
+
+h1 {
+	color:$color;
+}
+
+path{
+			transition: .5s all;
+		}
+
+rect{
+	transition: .5s all;
+}
+
+.bear-text-container{
+	display:none;
+}
+
+.cat-text-container{
+	display:none;
+}
+
+.bird-text-container{
+	display:none;
+}
+
+.logo-yellow{
+	padding:.2em;
+	background:black;
+	color: #f7cd00;
+}
+
+
+.logo-white{
+	padding:.2em;
+	background:#025fa7;
+	color: #ffffff;
+}
+
+p{
+	font-size: 15px;
+}
+
+.fa-check{
+	color:#33cc33;
+	font-size:80px;
+	text-align:center;
+}
+
+.switch-button{
+	height:100px;
+	background:red;
+}
+
+.green-montage{
+	background:grey;
+}
+
