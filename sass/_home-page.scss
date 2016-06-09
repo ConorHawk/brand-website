@@ -1,0 +1,36 @@
+.home-logo img{
+	max-width:90%;
+}
+
+#start-button{
+
+	display:inline-block;
+	border:1px solid black;
+	padding:.5em 1.5em;
+	margin-top:1em;
+	color:black;
+	transition:.15s all;
+	font-family: 'Oswald', sans-serif;
+	font-size:22px;
+		background-image: linear-gradient(to left,  #ffffff
+	, #ffffff
+	 50%,
+			#1a1a1a,50%,#1a1a1a);
+		background-position: 100% 0%;
+		background-size: 200% 100%;
+		text-decoration:none;
+}
+
+#start-button:hover{
+
+	display:inline-block;
+	border:1px solid black;
+	background-position: 0 0;
+	color:$yellow;
+	transform:scale(1.06);
+}
+
+#start-button:active{
+	transform:scale(1);
+
+}

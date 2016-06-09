@@ -1,4 +1,8 @@
 @import "variables.scss";
+@import "home-page.scss";
+@import "logo-page.scss";
+@import "picture-page.scss";
+@import "nav.scss";
 
 h1 {
 	color:$color;
@@ -27,9 +31,8 @@ rect{
 .logo-yellow{
 	padding:.2em;
 	background:black;
-	color: #f7cd00;
+	color: $yellow;
 }
-
 
 .logo-white{
 	padding:.2em;
@@ -41,11 +44,7 @@ p{
 	font-size: 15px;
 }
 
-.fa-check{
-	color:#33cc33;
-	font-size:80px;
-	text-align:center;
-}
+
 
 .switch-button{
 	height:100px;
